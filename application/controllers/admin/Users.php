@@ -45,11 +45,13 @@ class Users extends Admin_Controller {
 
 	public function create()
 	{
+		/*comment*/
         /* Breadcrumbs */
         $this->breadcrumbs->unshift(2, lang('menu_users_create'), 'admin/users/create');
         $this->data['breadcrumb'] = $this->breadcrumbs->show();
 
         /* Variables */
+        $test = "fsdfsdf";
 		$tables = $this->config->item('tables', 'ion_auth');
 
 		/* Validate form input */
