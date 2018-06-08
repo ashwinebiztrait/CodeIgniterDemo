@@ -51,7 +51,7 @@ class Users extends Admin_Controller {
         $this->data['breadcrumb'] = $this->breadcrumbs->show();
 
         /* Variables */
-        $test = "fsdfsdf";
+        $test = "fsdfsdsfdf";
 		$tables = $this->config->item('tables', 'ion_auth');
 
 		/* Validate form input */
